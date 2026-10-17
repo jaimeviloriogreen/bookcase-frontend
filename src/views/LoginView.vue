@@ -29,7 +29,7 @@
 
   const onSubmit = handleSubmit(async (values) => {
     try {
-      const request = await fetch(`${BACKEND_URL}/auth/login`, {
+      const request = await fetch(`${BACKEND_URL}/v1/auth/login`, {
         headers: {
           "Content-Type": "application/json;charset=utf-8",
         },
